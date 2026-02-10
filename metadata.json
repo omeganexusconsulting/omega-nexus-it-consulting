@@ -1,0 +1,9 @@
+
+{
+  "name": "Omega Nexus IT Consulting",
+  "description": "Omega Nexus: A high-end IT consulting firm providing cutting-edge cloud, security, and AI solutions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
