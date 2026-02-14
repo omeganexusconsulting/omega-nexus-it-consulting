@@ -32,7 +32,7 @@ export default function Home() {
                   Discuss a Project <ArrowRight size={18} />
                 </Link>
                 <Link to="/about" className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-xl font-semibold flex items-center justify-center hover:bg-slate-50 transition-all">
-                  About the Nexus
+                  About the Omega Nexus
                 </Link>
               </div>
               
@@ -46,7 +46,7 @@ export default function Home() {
                   <div className="flex text-amber-400 gap-0.5 mb-1">
                     {[1,2,3,4,5].map(i => <Star key={i} size={14} fill="currentColor" />)}
                   </div>
-                  <p className="text-sm font-medium text-slate-500">Trusted by Fortune 500 partners</p>
+                  <p className="text-sm font-medium text-slate-500">.</p>
                 </div>
               </div>
             </div>
@@ -74,26 +74,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-slate-900 py-20 text-white">
-        <div className="max-w-7xl mx-auto px-4 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-          <div>
-            <div className="text-4xl font-bold mb-2 tracking-tighter">99.99%</div>
-            <div className="text-slate-400 text-sm">Target Uptime</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold mb-2 tracking-tighter">500+</div>
-            <div className="text-slate-400 text-sm">Security Audits</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold mb-2 tracking-tighter">24/7</div>
-            <div className="text-slate-400 text-sm">Global SOC Operations</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold mb-2 tracking-tighter">15M+</div>
-            <div className="text-slate-400 text-sm">Lines of Code Audited</div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Services Preview */}
       <section className="py-24 bg-white px-4 lg:px-8">
@@ -102,8 +83,7 @@ export default function Home() {
             <h2 className="text-indigo-600 font-bold tracking-widest text-sm uppercase mb-4">Core Competencies</h2>
             <h3 className="text-4xl font-bold text-slate-900 mb-6 tracking-tight">Expertise that powers scale.</h3>
             <p className="text-slate-500 max-w-2xl mx-auto text-lg leading-relaxed">
-              We deliver the specialized knowledge required to compete and dominate 
-              in an increasingly complex global technology landscape.
+              Cloud-native architecture, migration, DevOps, and optimization — built for performance, security, and cost-efficiency.
             </p>
           </div>
 

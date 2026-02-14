@@ -145,7 +145,7 @@ export default function Careers() {
   return (
     <div className="pb-24">
       <div className="bg-slate-900 py-24 px-4 lg:px-8 text-center text-white">
-        <h1 className="text-4xl lg:text-6xl font-bold mb-6">Work with SOMETHING.</h1>
+        <h1 className="text-4xl lg:text-6xl font-bold mb-6">Work with Omega Nexus IT Consulting.</h1>
         <p className="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
           Join a elite team of problem solvers architecting the next era of digital infrastructure.
         </p>

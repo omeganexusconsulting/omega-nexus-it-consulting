@@ -78,7 +78,7 @@ export default function About() {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Setting the cornerstone of digital resilience.</h2>
             <p className="text-slate-400 text-lg leading-relaxed">
               We envision a world where technology is a seamless extension of business intent. 
-              Omega Nexus strives to be the primary architect of digital resilience and 
+              Omega Nexus IT Consulting strives to be the primary architect of digital resilience and 
               innovation for the world's most ambitious organizations.
             </p>
           </div>
@@ -116,20 +116,7 @@ export default function About() {
               Our team consists of senior architects, AI researchers .
               
             </p>
-            <div className="space-y-4">
-              <div className="flex items-center gap-3 font-semibold text-slate-800">
-                <div className="w-2 h-2 bg-indigo-600 rounded-full"></div>
-                150+ Global Certifications
-              </div>
-              <div className="flex items-center gap-3 font-semibold text-slate-800">
-                <div className="w-2 h-2 bg-indigo-600 rounded-full"></div>
-                Average 12 years seniority
-              </div>
-              <div className="flex items-center gap-3 font-semibold text-slate-800">
-                <div className="w-2 h-2 bg-indigo-600 rounded-full"></div>
-                Expertise across 40+ tech stacks
-              </div>
-            </div>
+            
           </div>
           <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
             {team.map((member, i) => (

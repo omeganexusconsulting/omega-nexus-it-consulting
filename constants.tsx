@@ -44,15 +44,15 @@ export const SERVICES: Service[] = [
 export const JOB_POSTINGS: JobPosting[] = [
   {
     id: 'se-01',
-    title: 'Senior Full Stack Engineer',
+    title: 'Senior Full Stack Engineer-Test Data',
     department: 'Engineering',
-    location: 'San Francisco, CA',
+    location: 'Test location, India',
     type: 'Full-time',
     description: 'We are looking for a React/Node expert to build mission-critical enterprise platforms.'
   },
   {
     id: 'sa-02',
-    title: 'Cloud Architect',
+    title: 'Cloud Architect-Test Data',
     department: 'DevOps',
     location: 'Remote',
     type: 'Remote',
@@ -60,9 +60,9 @@ export const JOB_POSTINGS: JobPosting[] = [
   },
   {
     id: 'cs-03',
-    title: 'Cybersecurity Analyst',
-    department: 'Security',
-    location: 'New York, NY',
+    title: 'Team Leader - Test Data',
+    department: 'Engineering',
+    location: 'Remote',
     type: 'Contract',
     description: 'Help our clients identify vulnerabilities and harden their infrastructure.'
   }
