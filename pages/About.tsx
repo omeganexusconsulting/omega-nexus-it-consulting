@@ -27,13 +27,13 @@ export default function About() {
 
   const team = [
     { 
-      name: "Swathi", 
+      name: "lean", 
       role: "Chief Technology Officer", 
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400",
       bio: "Former Lead Architect at major cloud providers, Swathi brings 20+ years of distributed systems expertise."
     },
     { 
-      name: "Swathi", 
+      name: "tian", 
       role: "Human Resource", 
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
       bio: "Renowned security researcher specializing in zero-trust architectures and forensic analysis."
