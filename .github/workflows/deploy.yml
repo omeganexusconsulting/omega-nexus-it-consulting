@@ -1,40 +1,38 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Vite App
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches:
+      - main
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
 
-      - name: Setup Node.js
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: 20
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      - name: Build
+      - name: Ensure Vite is installed
+        run: |
+          if ! npm list vite >/dev/null 2>&1; then
+            echo "Vite not found. Installing..."
+            npm install vite --save-dev
+          fi
+
+      - name: Build project
         run: npm run build
-        
 
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+      - name: Upload dist artifact
+        uses: actions/upload-artifact@v4
         with:
-          publish_dir: ./dist
+          name: vite-build
+          path: dist
